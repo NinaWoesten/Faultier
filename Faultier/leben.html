@@ -12,7 +12,7 @@
 </head>
 <body>
 
-    <div class="nav">
+    <nav class="nav">
         <ul>
             <li><a href="lebensraum.html">Lebensraum</a></li>
             <li><a href="index.html">Home</a></li>
@@ -22,12 +22,12 @@
      </ul> 
 
 
-    </div>
+    </nav>
      <div class="background">
     <div class="lheader">
         <h1>Das Leben der Faultiere<br><br></h1>
     </div>
-    <div class="lrow1">  
+    <section class="lrow1">  
             <img src="lpic-1.jpg" class="lpic-1">
         <div class="nahrung">
             <h2>Nahrung<br><br></h2>
@@ -38,8 +38,8 @@
             </p>
         </div>
         
-    </div>
-    <div class="lrow2">
+    </section>
+    <section class="lrow2">
         <img src="lpic-2.jpg" class="lpic-1">
         <div class="alter">
             <h2>Alter<br><br></h2>
@@ -51,8 +51,8 @@
             </p>
         </div>
         
-    </div>
-    <div class="lrow3">
+    </section>
+    <section class="lrow3">
         <img src="lpic-3.jpg" class="lpic-1">
         <div class="tagesablauf">
             <h2>Tagesablauf<br><br></h2>
@@ -65,11 +65,27 @@
             </p>
         </div>
         
-    </div>
+    </section>
 </div>
-    <div class="lfooter">
-        <h2><br>Footer</h2>
-    </div>
+    <section class="lfooter">
+        <h2><br>Kontakt</h2>
+        <p><br>Falls Sie ein Anliegen haben, können sie gerne eine Nachricht mit dem Formular senden<br><br></p>
+        <form
+  action="https://formspree.io/f/meqnnvwb"
+  method="POST"
+>
+  <label class="flabel">
+    Deine E-mail:
+    <input type="email" name="email">
+  </label>
+  <label class="flabel">
+    Deine Nachricht:
+    <textarea name="message"></textarea>
+  </label>
+  <!-- your other form fields go here -->
+  <button class="button" type="submit">Send</button>
+</form>
+</section>
     
 </body>
 </html>
